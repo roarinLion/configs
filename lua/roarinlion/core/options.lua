@@ -1,4 +1,5 @@
 vim.cmd("let g:netrw_liststyle = 3")
+vim.api.nvim_set_hl(0, "Folded", { bg = "#2e2e2e", fg = "#b3b3b3" })
 
 local opt = vim.opt
 
