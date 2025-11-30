@@ -15,6 +15,4 @@ vim.defer_fn(function()
   -- Highlight overrides
   vim.api.nvim_set_hl(0, "Folded", { bg = "#3f05aa", fg = "#a6adc8" })
   vim.api.nvim_set_hl(0, "FoldColumn", { bg = "#3f05aa", fg = "#a6adc8" })
-  vim.api.nvim_set_hl(0, "Visual", { bg = "#3f05aa", fg = "#a6adc8" })
-  vim.api.nvim_set_hl(0, "CursorLine", { bg = "#3f05aa", fg = "NONE" })
 end, 50)
